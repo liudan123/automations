@@ -6,6 +6,10 @@ import unittest
 import HTMLTestRunnerCN
 from tools.project_path import *
 
+
+
+
+
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()
 suite.addTest(loader.loadTestsFromTestCase(TestHttpRequest))

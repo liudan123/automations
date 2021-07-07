@@ -1,18 +1,13 @@
 # -*- encoding:utf-8 -*-
 
-from tools.http_requests import HttpRequest
-from tools.test_http_request import TestHttpRequest
+from automations.testcase.test_http_request import TestHttp
 import unittest
 import HTMLTestRunnerCN
 from tools.project_path import *
 
-
-
-
-
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()
-suite.addTest(loader.loadTestsFromTestCase(TestHttpRequest))
+suite.addTest(loader.loadTestsFromTestCase(TestHttp))
 
 with open(test_report_path,'wb') as file:
     runner = HTMLTestRunnerCN.HTMLTestRunner(

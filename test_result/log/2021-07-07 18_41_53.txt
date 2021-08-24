@@ -1,3 +1,0 @@
-2021-07-07 18:41:53,778-DEBUG-my_log.py-interface-日志信息:开始执行测试用例一对一-获取logo
-2021-07-07 18:41:53,779-DEBUG-my_log.py-interface-日志信息:..................开始http接口请求..................
-2021-07-07 18:41:53,887-DEBUG-my_log.py-interface-日志信息:获取的结果是：{u'msg': u'\u6210\u529f', u'code': 0, u'data': [u'https://jrs3.sina.cn/210701/1219521715.png']}
